@@ -1,0 +1,31 @@
+{
+  "name": "round-robin",
+  "version": "1.0.0",
+  "description": "In this example, each task is a function that handles an HTTP request (task1, task2, etc.). The RoundRobinScheduler class processes incoming HTTP requests using a simple HTTP server. When a request is received, it checks if there's a task in the queue, executes the task, and then moves the task to the end of the queue.",
+  "main": "round-robin.js",
+  "scripts": {
+    "start": "node round-robin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdul-Wasay-Ahmed/NodeJS-Architecture.git"
+  },
+  "keywords": [
+    "nodejs",
+    "architecture",
+    "algorithms"
+  ],
+  "author": "Abdul-Wasay-Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdul-Wasay-Ahmed/NodeJS-Architecture/issues"
+  },
+  "homepage": "https://github.com/Abdul-Wasay-Ahmed/NodeJS-Architecture#readme",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "supertest": "^6.3.3"
+  }
+}

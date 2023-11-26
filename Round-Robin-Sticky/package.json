@@ -1,0 +1,12 @@
+{
+  "name": "round-robin-sticky",
+  "version": "1.0.0",
+  "description": "Sticky Round Robin is a variation of the Round Robin scheduling algorithm where each task is assigned to the next available server in the list. However, once a task is assigned to a server, it remains sticky to that server until it completes or is explicitly unassigned.",
+  "main": "round-robin-sticky.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node round-robin-sticky.js"
+  },
+  "author": "Abdul Wasay Ahmed",
+  "license": "ISC"
+}
